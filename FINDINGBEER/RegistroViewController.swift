@@ -9,13 +9,25 @@ import UIKit
 
 class RegistroViewController: UIViewController {
 
+    @IBOutlet weak var codigoTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        codigoTextField.backgroundColor = .white
+        codigoTextField.placeholder = "Registrar N° de Código de Barra"
+        codigoTextField.font = UIFont.boldSystemFont(ofSize: 14)
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func registrar(_ sender: Any) {
+      
+        let codigo = codigoTextField.text ?? ""
+        print(codigo)
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DireccionesViewController") as! DireccionesViewController // Del identificador
+        vc.codigo = codigo
+        show(vc, sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

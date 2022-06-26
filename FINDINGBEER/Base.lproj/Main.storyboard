@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0Y-zw-81U">
-                                <rect key="frame" x="81" y="666" width="213" height="51"/>
+                                <rect key="frame" x="80" y="699" width="215" height="40"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="2iO-ay-v5v"/>
+                                    <constraint firstAttribute="height" constant="40" id="GN7-BP-I2y"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
                                 <state key="normal" title="Button"/>
@@ -35,45 +35,48 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="f1J-d1-GCj" kind="show" id="yYA-u4-uCp"/>
+                                    <action selector="registrar:" destination="ay8-57-h3e" eventType="touchUpInside" id="kpw-0v-Om8"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Registrar N° Codigo de Barra" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IJL-25-WNt">
-                                <rect key="frame" x="57" y="595" width="252" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Finding Beer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMr-TV-UDW">
+                                <rect key="frame" x="25" y="113" width="325" height="47"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="43"/>
+                                <color key="textColor" red="0.87514146517232527" green="0.033059374249680737" blue="0.2290185028532753" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoCerveza" translatesAutoresizingMaskIntoConstraints="NO" id="HiF-nT-Umc">
+                                <rect key="frame" x="42" y="180" width="291" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="W53-9q-74l"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Registrar N° Codigo de Barra" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IJL-25-WNt">
+                                <rect key="frame" x="45" y="605" width="285" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoCerveza" translatesAutoresizingMaskIntoConstraints="NO" id="s6K-Ur-w03">
-                                <rect key="frame" x="25" y="178" width="325" height="380"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="380" id="5PQ-k1-bME"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FINDING BEER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnu-DK-eR2">
-                                <rect key="frame" x="57" y="111" width="252" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6xj-HO-MPY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="s6K-Ur-w03" firstAttribute="centerX" secondItem="mz6-js-C3Y" secondAttribute="centerX" id="Doe-fd-M3P"/>
-                            <constraint firstItem="W0Y-zw-81U" firstAttribute="top" secondItem="IJL-25-WNt" secondAttribute="bottom" constant="37" id="ISB-IQ-keG"/>
-                            <constraint firstItem="s6K-Ur-w03" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="25" id="J0D-ks-Gcb"/>
-                            <constraint firstItem="6xj-HO-MPY" firstAttribute="trailing" secondItem="s6K-Ur-w03" secondAttribute="trailing" constant="25" id="JLV-j1-tPl"/>
-                            <constraint firstItem="IJL-25-WNt" firstAttribute="top" secondItem="s6K-Ur-w03" secondAttribute="bottom" constant="37" id="Mq6-Wr-Cje"/>
-                            <constraint firstItem="bnu-DK-eR2" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="167" id="T6m-w1-wpk"/>
-                            <constraint firstItem="IJL-25-WNt" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="57" id="c3g-iU-vhX"/>
-                            <constraint firstItem="6xj-HO-MPY" firstAttribute="trailing" secondItem="IJL-25-WNt" secondAttribute="trailing" constant="66" id="c8F-Fu-jQM"/>
-                            <constraint firstItem="W0Y-zw-81U" firstAttribute="centerX" secondItem="mz6-js-C3Y" secondAttribute="centerX" id="eJY-dQ-xjL"/>
-                            <constraint firstItem="bnu-DK-eR2" firstAttribute="top" secondItem="6xj-HO-MPY" secondAttribute="top" constant="23" id="gy0-ti-Wxp"/>
-                            <constraint firstItem="s6K-Ur-w03" firstAttribute="top" secondItem="bnu-DK-eR2" secondAttribute="bottom" constant="46" id="lvM-ur-LlB"/>
-                            <constraint firstItem="bnu-DK-eR2" firstAttribute="centerX" secondItem="mz6-js-C3Y" secondAttribute="centerX" id="tnT-yz-bih"/>
+                            <constraint firstItem="6xj-HO-MPY" firstAttribute="trailing" secondItem="vMr-TV-UDW" secondAttribute="trailing" constant="25" id="1Vk-W2-dT7"/>
+                            <constraint firstItem="6xj-HO-MPY" firstAttribute="trailing" secondItem="IJL-25-WNt" secondAttribute="trailing" constant="45" id="2wb-c2-IfT"/>
+                            <constraint firstItem="6xj-HO-MPY" firstAttribute="trailing" secondItem="W0Y-zw-81U" secondAttribute="trailing" constant="80" id="KAy-S9-yqv"/>
+                            <constraint firstItem="W0Y-zw-81U" firstAttribute="top" secondItem="IJL-25-WNt" secondAttribute="bottom" constant="60" id="NUf-HH-CNf"/>
+                            <constraint firstItem="6xj-HO-MPY" firstAttribute="trailing" secondItem="HiF-nT-Umc" secondAttribute="trailing" constant="42" id="cAZ-uE-tXm"/>
+                            <constraint firstItem="W0Y-zw-81U" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="80" id="dwf-ek-aXw"/>
+                            <constraint firstItem="HiF-nT-Umc" firstAttribute="top" secondItem="vMr-TV-UDW" secondAttribute="bottom" constant="20" id="iwD-W9-2rR"/>
+                            <constraint firstItem="HiF-nT-Umc" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="42" id="oOw-FS-SSo"/>
+                            <constraint firstItem="vMr-TV-UDW" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="25" id="pSb-ez-POF"/>
+                            <constraint firstItem="vMr-TV-UDW" firstAttribute="top" secondItem="6xj-HO-MPY" secondAttribute="top" constant="25" id="pcw-sY-I2c"/>
+                            <constraint firstItem="IJL-25-WNt" firstAttribute="top" secondItem="HiF-nT-Umc" secondAttribute="bottom" constant="25" id="sMI-Gn-z7l"/>
+                            <constraint firstItem="IJL-25-WNt" firstAttribute="leading" secondItem="6xj-HO-MPY" secondAttribute="leading" constant="45" id="sOn-un-cmX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wIL-Xr-G8z"/>
+                    <connections>
+                        <outlet property="codigoTextField" destination="IJL-25-WNt" id="shq-L9-Y57"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGx-xd-Zp4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sHG-ZP-rRt">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celda" id="R1F-ER-nuV">
@@ -183,7 +186,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="rHF-6C-FyE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UHt-je-8Mi">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

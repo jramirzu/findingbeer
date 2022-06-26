@@ -64,7 +64,6 @@
 		6950666B28625AA400BACAF9 /* FINDINGBEER */ = {
 			isa = PBXGroup;
 			children = (
-				6984437428666A4F00BA3B00 /* RegistroViewController.swift */,
 				6950666C28625AA400BACAF9 /* AppDelegate.swift */,
 				6950666E28625AA400BACAF9 /* SceneDelegate.swift */,
 				6950667028625AA400BACAF9 /* ViewController.swift */,
@@ -75,6 +74,7 @@
 				6950667A28625AA500BACAF9 /* Info.plist */,
 				696435E02864BBE400AA390E /* ModalViewController.swift */,
 				696435E22864FE7200AA390E /* DireccionesViewController.swift */,
+				6984437428666A4F00BA3B00 /* RegistroViewController.swift */,
 			);
 			path = FINDINGBEER;
 			sourceTree = "<group>";
