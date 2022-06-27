@@ -11,7 +11,7 @@ class DireccionesViewController: UIViewController {
     
     @IBOutlet weak var direccionesTableView: UITableView!
     
-    var codigo = "p"
+    var codigo = ""
     
     var pilsenlata = [
         "Calle Independencia 270",
@@ -22,17 +22,16 @@ class DireccionesViewController: UIViewController {
     
     var cuzqueña = [
         "Aramburu 489",
-        "Calle Lampara 290",
-        "Av. ",
-        "dir 4"
+        "Calle Madrid 380",
+        "Av. Jose Pardo 350",
     ]
     
     var cervezas: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
-        if codigo == "123456789" {
+        view.backgroundColor = .yellow
+        if codigo == "7753749132817" {
             cervezas = pilsenlata
         } else {
             cervezas = cuzqueña
@@ -44,7 +43,7 @@ class DireccionesViewController: UIViewController {
 extension DireccionesViewController: UITableViewDataSource  {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if codigo == "p" {
+        if codigo == "7753749132817" {
           return "Pilsen"
         } else {
           return "Cuzqueña"
