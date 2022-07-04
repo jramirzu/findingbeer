@@ -23,10 +23,18 @@ class RegistroViewController: UIViewController {
       
         let codigo = codigoTextField.text ?? ""
         print(codigo)
+        
+        let locales = LocalRepository().getLocales()
+        print(locales[2].codigo)
+        let localesFiltrado =  locales.filter{ local in
+           return local.codigo == Int(codigo)
+        }
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DireccionesViewController") as! DireccionesViewController // Del identificador
-        vc.codigo = codigo
+        vc.cervezas = localesFiltrado
         show(vc, sender: nil)
     }
+    
+  
     
     /*
     // MARK: - Navigation
