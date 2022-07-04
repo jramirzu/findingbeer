@@ -11,31 +11,14 @@ class DireccionesViewController: UIViewController {
     
     @IBOutlet weak var direccionesTableView: UITableView!
     
-    var codigo = ""
     
-    var pilsenlata = [
-        "Calle Independencia 270",
-        "Calle Manco Capac 750",
-        "Calle Tacna 980",
-        "Av. Enrique Palacios 350"
-    ]
-    
-    var cuzqueña = [
-        "Aramburu 489",
-        "Calle Madrid 380",
-        "Av. Jose Pardo 350",
-    ]
-    
-    var cervezas: [String] = []
+    var cervezas: [Local] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .yellow
-        if codigo == "7753749132817" {
-            cervezas = pilsenlata
-        } else {
-            cervezas = cuzqueña
-        }
+        view.backgroundColor = .systemPurple
+        
+   
         direccionesTableView.dataSource = self
     }
 }
@@ -43,11 +26,9 @@ class DireccionesViewController: UIViewController {
 extension DireccionesViewController: UITableViewDataSource  {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if codigo == "7753749132817" {
-          return "Pilsen"
-        } else {
-          return "Cuzqueña"
-        }
+       
+        cervezas.first?.marca
+      
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         cervezas.count
@@ -55,9 +36,14 @@ extension DireccionesViewController: UITableViewDataSource  {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
-        celda.textLabel?.text = cervezas[indexPath.row]
+        celda.textLabel?.text = cervezas[indexPath.row].direccion
         return celda
     }
 
 }
+
+
+
+
+
 

@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import MapKit
 
 class ModalViewController: UIViewController {
 
+    @IBOutlet weak var mapa: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
