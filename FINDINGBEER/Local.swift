@@ -10,7 +10,7 @@ struct Local: Codable {
     let direccion: String
     let marca: String
     let image_url: String
-   // let latitude: Double
-   // let lognitud: Double
+    let latitude: Double
+    let longitude: Double
 }
     

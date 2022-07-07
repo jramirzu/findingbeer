@@ -119,42 +119,44 @@
                     <navigationItem key="navigationItem" id="QBS-h5-rfZ"/>
                     <connections>
                         <outlet property="direccionesTableView" destination="sHG-ZP-rRt" id="45K-dx-t6M"/>
-                        <segue destination="vtV-cI-Zgd" kind="show" identifier="DireccionAMap" id="55t-df-rHb"/>
+                        <segue destination="vtV-cI-Zgd" kind="presentation" identifier="DireccionAMap" id="55t-df-rHb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V6p-0Y-MP8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1243.4782608695652" y="-362.27678571428572"/>
         </scene>
-        <!--Modal View Controller-->
+        <!--Maps View Controller-->
         <scene sceneID="KSo-qy-UTW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GEv-DG-yTe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="vtV-cI-Zgd" customClass="ModalViewController" customModule="FINDINGBEER" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapsViewController" id="vtV-cI-Zgd" customClass="MapsViewController" customModule="FINDINGBEER" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zlb-I8-sHj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uF7-EW-MrZ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qju-66-1FH" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                                <color key="backgroundColor" red="0.62613485509117683" green="0.55187526265131515" blue="0.94328004119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="systemOrangeColor"/>
-                            </mapView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vtV-cI-Zgd" id="7hO-m0-eff"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dio-x3-XA2"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="uF7-EW-MrZ" firstAttribute="top" secondItem="Dio-x3-XA2" secondAttribute="top" id="D7B-Bf-Fsr"/>
-                            <constraint firstItem="Dio-x3-XA2" firstAttribute="bottom" secondItem="uF7-EW-MrZ" secondAttribute="bottom" id="JGC-QE-Vo9"/>
-                            <constraint firstItem="Dio-x3-XA2" firstAttribute="trailing" secondItem="uF7-EW-MrZ" secondAttribute="trailing" id="bOt-6J-yBz"/>
-                            <constraint firstItem="uF7-EW-MrZ" firstAttribute="leading" secondItem="Dio-x3-XA2" secondAttribute="leading" id="rNx-AA-qaR"/>
+                            <constraint firstItem="Dio-x3-XA2" firstAttribute="bottom" secondItem="qju-66-1FH" secondAttribute="bottom" id="QkS-bB-C9m"/>
+                            <constraint firstItem="Dio-x3-XA2" firstAttribute="trailing" secondItem="qju-66-1FH" secondAttribute="trailing" id="THI-pc-unB"/>
+                            <constraint firstItem="qju-66-1FH" firstAttribute="leading" secondItem="Dio-x3-XA2" secondAttribute="leading" id="ZIR-ba-Zgi"/>
+                            <constraint firstItem="qju-66-1FH" firstAttribute="top" secondItem="Dio-x3-XA2" secondAttribute="top" id="z2g-Rm-VA5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qGe-yG-Xef"/>
                     <connections>
-                        <outlet property="mapa" destination="uF7-EW-MrZ" id="QcY-23-Dy6"/>
+                        <outlet property="mapas" destination="qju-66-1FH" id="djS-Ai-W2O"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEv-DG-yTe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-289" y="-362"/>
         </scene>

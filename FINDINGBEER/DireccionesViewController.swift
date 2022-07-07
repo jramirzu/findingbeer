@@ -18,12 +18,12 @@ class DireccionesViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemPurple
         
-   
+        direccionesTableView.delegate = self
         direccionesTableView.dataSource = self
     }
 }
 
-extension DireccionesViewController: UITableViewDataSource  {
+extension DireccionesViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
        
@@ -40,8 +40,35 @@ extension DireccionesViewController: UITableViewDataSource  {
         return celda
     }
 
-}
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("locales:\(cervezas[indexPath.row].direccion)")
+        
+        guard
+        let main = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MapsViewController")
+        
+        
+            as?MapsViewController  else{
+                return
+            }
+        main.cerveza = cervezas[indexPath.row]
+//
+//                if let sheet = bottomSheet.sheetPresentationController {
+//
+//                    sheet.detents = [.medium()]
+//
+//                    sheet.prefersScrollingExpandsWhenScrolledToEdge = true
+//
+//                    sheet.prefersGrabberVisible = true
+//
+//                    sheet.preferredCornerRadius = 24
+//
+//                }
 
+                self.present(main, animated: true)
+        
+    }
+}
+    
 
 
 

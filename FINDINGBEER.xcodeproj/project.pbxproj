@@ -16,12 +16,30 @@
 		6950667428625AA400BACAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6950667228625AA400BACAF9 /* Main.storyboard */; };
 		6950667628625AA500BACAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6950667528625AA500BACAF9 /* Assets.xcassets */; };
 		6950667928625AA500BACAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6950667728625AA500BACAF9 /* LaunchScreen.storyboard */; };
-		696435E12864BBE400AA390E /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696435E02864BBE400AA390E /* ModalViewController.swift */; };
+		696435E12864BBE400AA390E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696435E02864BBE400AA390E /* MapsViewController.swift */; };
 		696435E32864FE7200AA390E /* DireccionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696435E22864FE7200AA390E /* DireccionesViewController.swift */; };
 		6984437528666A4F00BA3B00 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6984437428666A4F00BA3B00 /* RegistroViewController.swift */; };
+		699244D32875D79B0001DECA /* Pods_FINDINGBEER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49ACCE707B79F994F8E1AD7 /* Pods_FINDINGBEER.framework */; };
+		699244D42875D79B0001DECA /* Pods_FINDINGBEER.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C49ACCE707B79F994F8E1AD7 /* Pods_FINDINGBEER.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		699244D52875D79B0001DECA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				699244D42875D79B0001DECA /* Pods_FINDINGBEER.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1000A49998DE4DE3E8BB7A92 /* Pods-FINDINGBEER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FINDINGBEER.debug.xcconfig"; path = "Target Support Files/Pods-FINDINGBEER/Pods-FINDINGBEER.debug.xcconfig"; sourceTree = "<group>"; };
+		25C55AA790D5120CF4EE0E92 /* Pods-FINDINGBEER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FINDINGBEER.release.xcconfig"; path = "Target Support Files/Pods-FINDINGBEER/Pods-FINDINGBEER.release.xcconfig"; sourceTree = "<group>"; };
 		691C2037286F6935005391BF /* Locales.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Locales.json; sourceTree = "<group>"; };
 		691C203B286FA07F005391BF /* Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local.swift; sourceTree = "<group>"; };
 		691C203D286FB8CC005391BF /* LocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRepository.swift; sourceTree = "<group>"; };
@@ -33,9 +51,10 @@
 		6950667528625AA500BACAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6950667828625AA500BACAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6950667A28625AA500BACAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		696435E02864BBE400AA390E /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		696435E02864BBE400AA390E /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		696435E22864FE7200AA390E /* DireccionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DireccionesViewController.swift; sourceTree = "<group>"; };
 		6984437428666A4F00BA3B00 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		C49ACCE707B79F994F8E1AD7 /* Pods_FINDINGBEER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FINDINGBEER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +62,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699244D32875D79B0001DECA /* Pods_FINDINGBEER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48366A13BB0C71DB4213B3B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C49ACCE707B79F994F8E1AD7 /* Pods_FINDINGBEER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66A845089307E305378AD93B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1000A49998DE4DE3E8BB7A92 /* Pods-FINDINGBEER.debug.xcconfig */,
+				25C55AA790D5120CF4EE0E92 /* Pods-FINDINGBEER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6950666028625AA400BACAF9 = {
 			isa = PBXGroup;
 			children = (
 				6950666B28625AA400BACAF9 /* FINDINGBEER */,
 				6950666A28625AA400BACAF9 /* Products */,
+				66A845089307E305378AD93B /* Pods */,
+				48366A13BB0C71DB4213B3B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +114,7 @@
 				6950667528625AA500BACAF9 /* Assets.xcassets */,
 				6950667728625AA500BACAF9 /* LaunchScreen.storyboard */,
 				6950667A28625AA500BACAF9 /* Info.plist */,
-				696435E02864BBE400AA390E /* ModalViewController.swift */,
+				696435E02864BBE400AA390E /* MapsViewController.swift */,
 				696435E22864FE7200AA390E /* DireccionesViewController.swift */,
 				691C203B286FA07F005391BF /* Local.swift */,
 				6984437428666A4F00BA3B00 /* RegistroViewController.swift */,
@@ -92,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6950667D28625AA500BACAF9 /* Build configuration list for PBXNativeTarget "FINDINGBEER" */;
 			buildPhases = (
+				1AEA8CE9BCD86E0D3F13A92F /* [CP] Check Pods Manifest.lock */,
 				6950666528625AA400BACAF9 /* Sources */,
 				6950666628625AA400BACAF9 /* Frameworks */,
 				6950666728625AA400BACAF9 /* Resources */,
+				1CD50AA4F2C5533F9EDFCDF5 /* [CP] Copy Pods Resources */,
+				699244D52875D79B0001DECA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,12 +194,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AEA8CE9BCD86E0D3F13A92F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FINDINGBEER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD50AA4F2C5533F9EDFCDF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FINDINGBEER/Pods-FINDINGBEER-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FINDINGBEER/Pods-FINDINGBEER-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FINDINGBEER/Pods-FINDINGBEER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6950666528625AA400BACAF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696435E12864BBE400AA390E /* ModalViewController.swift in Sources */,
+				696435E12864BBE400AA390E /* MapsViewController.swift in Sources */,
 				6984437528666A4F00BA3B00 /* RegistroViewController.swift in Sources */,
 				691C203C286FA07F005391BF /* Local.swift in Sources */,
 				691C203E286FB8CC005391BF /* LocalRepository.swift in Sources */,
@@ -308,6 +392,7 @@
 		};
 		6950667E28625AA500BACAF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1000A49998DE4DE3E8BB7A92 /* Pods-FINDINGBEER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
@@ -337,6 +422,7 @@
 		};
 		6950667F28625AA500BACAF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C55AA790D5120CF4EE0E92 /* Pods-FINDINGBEER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";

@@ -1,54 +1,71 @@
 [
     {
         "codigo": 753749132817,
-        "direccion": "Calle Independencia 270",
+        "direccion": "Calle Independencia 296",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.117234,
+        "longitude": -77.029331
+        
     },
     {
         "codigo": 753749132817,
         "direccion": "Calle Manco Capac 750",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.129533,
+        "longitude": -77.026123
     },
     {
         "codigo": 753749132817,
         "direccion": "Calle Tacna 980",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.104396,
+        "longitude": -77.029331
     },
     {
         "codigo": 753749132817,
-        "direccion": "Calle Enrique Palacios",
+        "direccion": "Calle Enrique Palacios 250",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.116956,
+        "longitude": -77.030924
     },
     
     
     {
         "codigo": 1234,
-        "direccion": "Calle Independencia 270",
+        "direccion": "Calle Piura 470",
         "marca":"cuzqueña",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.115917,
+        "longitude": -77.033159
     },
     {
         "codigo": 1234,
-        "direccion": "Aramburu 489",
+        "direccion": "Calle Aramburu 489",
         "marca":"cuzqueña",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.102426,
+        "longitude": -77.025721
     },
     {
         "codigo": 1234,
-        "direccion": "Calle Madrid 380",
+        "direccion": "Calle Madrid 370",
         "marca":"cuzqueña",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.1123311,
+        "longitude": -77.036596
     },
     
     {
         "codigo": 1234,
         "direccion": "Av. Jose Pardo 350",
         "marca":"cuzqueña",
-        "image_url": "https://images.punkapi.com/v2/keg.png"
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.118991,
+        "longitude": -77.031824
     }
     
 ]
