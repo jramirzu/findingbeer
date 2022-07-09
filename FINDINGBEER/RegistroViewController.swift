@@ -61,7 +61,9 @@ extension RegistroViewController : UIPickerViewDelegate, UIPickerViewDataSource 
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         codigoTextField.text = codigoCervezas[row]
+        codigoTextField.resignFirstResponder()
         
+
     }
 }
 
