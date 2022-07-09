@@ -11,11 +11,22 @@ class RegistroViewController: UIViewController {
 
     @IBOutlet weak var codigoTextField: UITextField!
     
+    
+    let codigoCervezas = ["753749132817", "1234"]
+    var pickerVieW = UIPickerView()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        codigoTextField.inputView = pickerVieW
+        
         codigoTextField.backgroundColor = .white
         codigoTextField.placeholder = "Registrar N° de Código de Barra"
         codigoTextField.font = UIFont.boldSystemFont(ofSize: 14)
+        codigoTextField.textAlignment = .center
+        
+        pickerVieW.delegate = self
+        pickerVieW.dataSource = self
         // Do any additional setup after loading the view.
     }
     
@@ -34,16 +45,23 @@ class RegistroViewController: UIViewController {
         show(vc, sender: nil)
     }
     
-  
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
+extension RegistroViewController : UIPickerViewDelegate, UIPickerViewDataSource {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int{
+        return 1
+    }
+
+
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
+        return codigoCervezas.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return codigoCervezas[row]
+    }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        codigoTextField.text = codigoCervezas[row]
+        
+    }
+}
+
