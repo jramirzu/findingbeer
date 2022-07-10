@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DireccionesViewController: UIViewController {
+class DireccionesViewController: UIViewController  {
     
     @IBOutlet weak var direccionesTableView: UITableView!
     
