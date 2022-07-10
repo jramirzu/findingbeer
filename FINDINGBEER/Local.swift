@@ -12,5 +12,6 @@ struct Local: Codable {
     let image_url: String
     let latitude: Double
     let longitude: Double
+    let nombreLocal : String
 }
     

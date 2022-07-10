@@ -12,7 +12,7 @@ class RegistroViewController: UIViewController {
     @IBOutlet weak var codigoTextField: UITextField!
     
     
-    let codigoCervezas = ["753749132817", "1234"]
+    let codigoCervezas = ["123", "1234"]
     var pickerVieW = UIPickerView()
     
     

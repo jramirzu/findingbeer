@@ -1,37 +1,98 @@
 [
     {
-        "codigo": 753749132817,
+        "codigo": 123,
         "direccion": "Calle Independencia 296",
         "marca":"pilsen",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.117234,
-        "longitude": -77.029331
-        
+        "longitude": -77.029331,
+        "nombreLocal": "MARKET A"
     },
     {
-        "codigo": 753749132817,
+        "codigo": 123,
         "direccion": "Calle Manco Capac 750",
         "marca":"pilsen",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.129533,
-        "longitude": -77.026123
+        "longitude": -77.026123,
+        "nombreLocal": "MARKET B"
     },
     {
-        "codigo": 753749132817,
+        "codigo": 123,
         "direccion": "Calle Tacna 980",
         "marca":"pilsen",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.104396,
-        "longitude": -77.029331
+        "longitude": -77.029331,
+        "nombreLocal": "FRANJA MARKET"
     },
     {
-        "codigo": 753749132817,
+        "codigo": 123,
         "direccion": "Calle Enrique Palacios 250",
         "marca":"pilsen",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.116956,
-        "longitude": -77.030924
+        "longitude": -77.030924,
+        "nombreLocal": "MARKET D"
     },
+    
+    {
+        "codigo": 123,
+        "direccion": "Av. Los Conquistadores 875",
+        "marca":"pilsen",
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.104544837013764,
+        "longitude": -77.03697557382678,
+        "nombreLocal": "MARKET E"
+    },
+    
+    {
+        "codigo": 123,
+        "direccion": "Av. Gral. Antonio Alvarez de Arenales 289, San Isidro",
+        "marca":"pilsen",
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude":  -12.089595187957386,
+        "longitude": -77.03441155195185,
+        "nombreLocal": "MARKET F"
+    },
+    
+    {
+        "codigo": 123,
+        "direccion": "Av. Alvarez Calderón 107",
+        "marca":"pilsen",
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude":   -12.105069234797174,
+        "longitude": -77.03945680324615,
+        "nombreLocal": "EL POZITO"
+    },
+    
+
+    
+    {
+        "codigo": 123,
+        "direccion": "Av. Camino Real 147, Lima 15073",
+        "marca":"pilsen",
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.093921241596213,
+        "longitude": -77.03505552525986,
+        "nombreLocal": "MARKET H"
+    },
+    
+    
+    {
+        "codigo": 123,
+        "direccion": "C. Comandante Juan G. Moore, Miraflores 15074",
+        "marca":"pilsen",
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "latitude": -12.118409103357957,
+        "longitude":  -77.04060141506987,
+        "nombreLocal": "BODEGA KUNIMON"
+    },
+    
+    
+    
+    
+    
     
     
     {
@@ -40,7 +101,8 @@
         "marca":"cuzqueña",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.115917,
-        "longitude": -77.033159
+        "longitude": -77.033159,
+        "nombreLocal": "MARKET J"
     },
     {
         "codigo": 1234,
@@ -48,7 +110,8 @@
         "marca":"cuzqueña",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.102426,
-        "longitude": -77.025721
+        "longitude": -77.025721,
+        "nombreLocal": "MARKET K"
     },
     {
         "codigo": 1234,
@@ -56,7 +119,8 @@
         "marca":"cuzqueña",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.1123311,
-        "longitude": -77.036596
+        "longitude": -77.036596,
+        "nombreLocal": "MARKET L"
     },
     
     {
@@ -65,7 +129,8 @@
         "marca":"cuzqueña",
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.118991,
-        "longitude": -77.031824
+        "longitude": -77.031824,
+        "nombreLocal": "MARKET LL"
     }
     
 ]
