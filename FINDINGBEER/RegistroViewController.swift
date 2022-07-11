@@ -11,7 +11,7 @@ class RegistroViewController: UIViewController {
 
     @IBOutlet weak var marcaTextField: UITextField!
     
-    let marcaCervezas = ["pilsen", "cuzqueña"]
+    let marcaCervezas = ["pilsen", "cuzqueña", "barbarian"]
     var pickerVieW = UIPickerView()
     
     

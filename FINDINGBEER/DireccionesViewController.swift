@@ -41,7 +41,7 @@ extension DireccionesViewController: UITableViewDataSource, UITableViewDelegate 
       
         celda?.direccionLocalLabel?.text = local.direccion //
         celda?.nameLocalLabel?.text = local.nombreLocal
-       
+        celda?.codigo?.text = String(local.codigo)
         return celda!
     
     }

@@ -15,5 +15,6 @@ struct Local: Codable {
     let latitude: Double
     let longitude: Double
     let nombreLocal : String
+//    let telefono : Int
 }
     
