@@ -4,34 +4,16 @@
 //
 //  Created by Jorge Jair Ramirez Gaston Zuloeta on 10/07/22.
 //
+
+import Foundation
 import UIKit
 
-class CustomTableViewCell: UITableViewCell{
+
+class CustomTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var imageCell: UIImageView!
-    @IBOutlet weak var nameLocalCell: UILabel!
-    //    @IBOutlet weak var imageCell: UIImageView!
-//
-//    @IBOutlet weak var nameLocalCell: UILabel!
-//
-//    @IBOutlet weak var descriptioncell: UILabel!
-//
-//
-//    @IBOutlet weak var estrellasCell: UILabel!
-//
-//    @IBOutlet var tableView: UITableView!
-
+    @IBOutlet weak var localImageView: UIImageView!
+    @IBOutlet weak var nameLocalLabel: UILabel!
+    @IBOutlet weak var direccionLocalLabel: UILabel!
+    @IBOutlet weak var codigo: UILabel!
     
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

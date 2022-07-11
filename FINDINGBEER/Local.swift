@@ -6,6 +6,8 @@
 //
 
 struct Local: Codable {
+//    let ciudad: String
+//    let distrito: String
     let codigo: Int
     let direccion: String
     let marca: String

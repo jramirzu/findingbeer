@@ -9,21 +9,20 @@ import UIKit
 
 class RegistroViewController: UIViewController {
 
-    @IBOutlet weak var codigoTextField: UITextField!
+    @IBOutlet weak var marcaTextField: UITextField!
     
-    
-    let codigoCervezas = ["123", "1234"]
+    let marcaCervezas = ["pilsen", "cuzqueña"]
     var pickerVieW = UIPickerView()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        codigoTextField.inputView = pickerVieW
+        marcaTextField.inputView = pickerVieW
         
-        codigoTextField.backgroundColor = .white
-        codigoTextField.placeholder = "Registrar N° de Código de Barra"
-        codigoTextField.font = UIFont.boldSystemFont(ofSize: 14)
-        codigoTextField.textAlignment = .center
+        marcaTextField.backgroundColor = .white
+        marcaTextField.placeholder = "Seleccionar tu marca preferida"
+        marcaTextField.font = UIFont.boldSystemFont(ofSize: 14)
+        marcaTextField.textAlignment = .center
         
         pickerVieW.delegate = self
         pickerVieW.dataSource = self
@@ -32,16 +31,19 @@ class RegistroViewController: UIViewController {
     
     @IBAction func registrar(_ sender: Any) {
       
-        let codigo = codigoTextField.text ?? ""
-        print(codigo)
+        let marca = marcaTextField.text ?? ""
+        print(marca)
         
+
         let locales = LocalRepository().getLocales()
-        print(locales[2].codigo)
+        print(locales[2].marca)
         let localesFiltrado =  locales.filter{ local in
-           return local.codigo == Int(codigo)
+           return local.marca == String(marca)
         }
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DireccionesViewController") as! DireccionesViewController // Del identificador
-        vc.cervezas = localesFiltrado
+        print("Estos son locales filtrados:\(localesFiltrado)")
+        
+        vc.locales = localesFiltrado // asignando los locales filtrados
         show(vc, sender: nil)
     }
     
@@ -54,14 +56,14 @@ extension RegistroViewController : UIPickerViewDelegate, UIPickerViewDataSource 
 
 
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
-        return codigoCervezas.count
+        return marcaCervezas.count
     }
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return codigoCervezas[row]
+        return marcaCervezas[row]
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        codigoTextField.text = codigoCervezas[row]
-        codigoTextField.resignFirstResponder()
+        marcaTextField.text = marcaCervezas[row]
+        marcaTextField.resignFirstResponder()
         
 
     }

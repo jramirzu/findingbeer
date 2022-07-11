@@ -7,17 +7,18 @@
 
 import Foundation
 class LocalRepository {
-    func getLocales() -> [Local] {
+    func getLocales() -> [Local]{
         guard let data = loadJSONfile("Locales") else { fatalError("")}
 
          //as! as?
+      
 
          let decoder = JSONDecoder()
 
         guard  let response = try? decoder.decode([Local].self, from: data) else {
             fatalError("")
         }
-        
+
         return response
     }
     
