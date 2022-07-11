@@ -1,93 +1,150 @@
 [
     {
         "codigo": 123,
-        "direccion": "Calle Independencia 296",
+        "direccion": "Av San Pablo 729, Cercado de Lima 15019",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude": -12.117234,
-        "longitude": -77.029331,
-        "nombreLocal": "MARKET A"
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipPXSCFt7BaCWqbG4rRQI3NvQB6agksJHRZ7HP6W=w426-h240-k-no",
+        "latitude": -12.068073732139771,
+        "longitude": -77.00916066063975,
+        "nombreLocal": "DISTRIBUIDORA TRES MARIAS",
+        "telefono" : 2259999
     },
     {
         "codigo": 123,
-        "direccion": "Calle Manco Capac 750",
+        "direccion": "Av. Comandante Espinar 381, Miraflores 15074",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude": -12.129533,
-        "longitude": -77.026123,
-        "nombreLocal": "MARKET B"
+        "image_url": "https://lh6.googleusercontent.com/proxy/00dUd-ZtBDgzHkUQTYL3PctNqAtvxjKMPl-fsX8UUI1HO-Z3lZlIyzlsWxzyt8r1hFYpd-Ucfm1RhaEroi2KWszK0kTb5YcOQ5i7yPkWBtfjx2G9ZDwpUD2F9-g4zHy8O2L4IhcbQlB4hDG2sJFLj0Ry5xUGF5uWHfsVOTStFPby=w427-h240-k-no",
+        "latitude": -12.116274538512293,
+        "longitude": -77.03713326762973,
+        "nombreLocal": "EL POZITO",
+        "telefono" : 2259999
     },
     {
         "codigo": 123,
-        "direccion": "Calle Tacna 980",
+        "direccion": "Calle Tacna 980, Miraflores",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "image_url": "https://www.google.com/maps/uv?pb=!1s0x9105c96bfb1f9d83%3A0x9b75d51bc910f79f!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOet-Xy9WTtnoEPvaCi-jPTjYUwi8bNrXmuUTCB%3Dw240-h320-k-no!5sfranja%20market%20-%20Buscar%20con%20Google!15sCgIgAQ&imagekey=!1e10!2sAF1QipOet-Xy9WTtnoEPvaCi-jPTjYUwi8bNrXmuUTCB&hl=es-419&sa=X&ved=2ahUKEwj8qeXss_H4AhU4gv0HHeLzBtIQoip6BAhMEAM&cshid=1657562226574348",
         "latitude": -12.104396,
         "longitude": -77.029331,
-        "nombreLocal": "FRANJA MARKET"
+        "nombreLocal": "FRANJA MARKET",
+        "telefono" : 2259999
     },
     {
         "codigo": 123,
-        "direccion": "Calle Enrique Palacios 250",
+        "direccion": "Av. Ernesto Diez Canseco Nro. 351 Lima - Lima - Miraflores, La Paz",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude": -12.116956,
-        "longitude": -77.030924,
-        "nombreLocal": "MARKET D"
-    },
-    
-    {
-        "codigo": 123,
-        "direccion": "Av. Los Conquistadores 875",
-        "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude": -12.104544837013764,
-        "longitude": -77.03697557382678,
-        "nombreLocal": "MARKET E"
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipN8MZgiUf3w-bG8ogbRifRHuhB7VnhESgb0RePn=w408-h306-k-no",
+        "latitude": -12.121248133403604,
+        "longitude": -77.02699994463858,
+        "nombreLocal": "Tambo+ La Paz",
+        "telefono" : 2259999
     },
     
     {
         "codigo": 123,
-        "direccion": "Av. Gral. Antonio Alvarez de Arenales 289, San Isidro",
+        "direccion": "Gran Pajaten 499, San Juan de Lurigancho 15427",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude":  -12.089595187957386,
-        "longitude": -77.03441155195185,
-        "nombreLocal": "MARKET F"
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipMOlS0VB6FjeAQWW4848hajSYTVAobgfDW893L7=w428-h240-k-no",
+        "latitude": -12.021554533772164,
+        "longitude": -76.98668370221975,
+        "nombreLocal": "MAKRO",
+        "telefono" : 2259999
+    },
+    
+    {
+        "codigo": 123,
+        "direccion": "Av. Gral. Antonio Alvarez de Arenales 289, San Isidro 15046",
+        "marca":"pilsen",
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipM3uI-Y8yF3x9tExulCgXUUWPS2JYavqSCKTU5U=w408-h544-k-no",
+        "latitude":  -12.090722370902512,
+        "longitude": -77.03437246903512,
+        "nombreLocal": "Distribuidora Nuevo Mundo",
+        "telefono" : 2259999
+        
     },
     
     {
         "codigo": 123,
         "direccion": "Av. Alvarez Calderón 107",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude":   -12.105069234797174,
-        "longitude": -77.03945680324615,
-        "nombreLocal": "EL POZITO"
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipMJUAmu5JllXEW-ROPQDrn7IrElunfFc-vc-WwL=w408-h544-k-no",
+        "latitude":   -12.104693280573565,
+        "longitude": -77.03946938436683,
+        "nombreLocal": "EL POZITO",
+        "telefono" : 2259999
     },
     
 
     
     {
         "codigo": 123,
-        "direccion": "Av. Camino Real 147, Lima 15073",
+        "direccion": "Av. Los Conquistadores 875, San Isidro 15073",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude": -12.093921241596213,
-        "longitude": -77.03505552525986,
-        "nombreLocal": "MARKET H"
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipODXiwSxGWloFIuS2v6G-z5ESknt9DBwpdMham-=w408-h272-k-no",
+        "latitude": -12.102996705541619,
+        "longitude": -77.03694679256516,
+        "nombreLocal": "ALMENDARIZ",
+        "telefono" : 2259999
     },
     
     
     {
         "codigo": 123,
-        "direccion": "C. Comandante Juan G. Moore, Miraflores 15074",
+        "direccion": "Calle Porta 313, Miraflores 15074",
         "marca":"pilsen",
-        "image_url": "https://images.punkapi.com/v2/keg.png",
-        "latitude": -12.118409103357957,
-        "longitude":  -77.04060141506987,
-        "nombreLocal": "BODEGA KUNIMON"
+        "image_url": "https://lh5.googleusercontent.com/proxy/lqp_NijRCrD7aXXQT1bu1vSOorDDcUnCXuTOBNfLGD2nwPYm5i9T1KGSTITjigN7VwAcPUAgSOYZgqc6Orgxt5GNRheRDjdWmp6QUKVgLATilSKcAugy3jMhyjQ-10WEw7k1Z1xPFr1pPLxxdPI5h4GGN_IaD6emxNcXuZFYbLwu=w427-h240-k-no",
+        "latitude": -12.124856241625428, 
+        "longitude":  -77.03195278458634,
+        "nombreLocal": "BODEGA ANDY",
+        "telefono" : 2259999
     },
+    
+    {
+        "codigo": 123456,
+        "direccion": "C. Berlín 225, Miraflores 15074",
+        "marca":"barbarian",
+        "image_url": "https://pr0.nicelocal.pe/LraDcLVV3eUIMOQJwBidFQ/600x800,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2X-FX1SoQcE0GR2jpnYPRufJwVcJal9Z0GBbMzsJQyJ22ylOllrRLuPP8H1MbtVk7w",
+        "latitude": -12.121708244206978,
+        "longitude":  -77.03230356214966,
+        "nombreLocal": "Barbarian Berlin",
+        "telefono" : 2259999
+    },
+    
+    {
+        "codigo": 123456,
+        "direccion": "C. Manuel Bonilla 108, Miraflores 15074",
+        "marca":"barbarian",
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipPgIwKhnGcWNWi1qHlbEIfbdDT63s-gmiJYfCva=w408-h272-k-no",
+        "latitude": -12.119924019934613,
+        "longitude":  -77.02856941695553,
+        "nombreLocal": "Barbarian Miraflores",
+        "telefono" : 2259999
+    },
+    
+    
+    {
+        "codigo": 123456,
+        "direccion": "Av. Pedro de Osma 144, Lima 15063",
+        "marca":"barbarian",
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipPKWDdUsH4cVouVDTjT0DgZIAhK2dsNxkpVFNsr=w408-h272-k-no",
+        "latitude": -12.150787711984725,
+        "longitude":  -77.02214642330497,
+        "nombreLocal": "Barbarian Barranco",
+        "telefono" : 2259999
+    },
+    
+    {
+        "codigo": 123456,
+        "direccion": "Av. Javier Prado Este N° 4200, Santiago de Surco 15023",
+        "marca":"barbarian",
+        "image_url": "https://lh5.googleusercontent.com/p/AF1QipNdUCzE87GRabW4o3qPt-zqQPvdqGZxIi1MHUCa=w408-h272-k-no",
+        "latitude": -12.150787711984725,
+        "longitude":  -77.02214642330497,
+        "nombreLocal": "Barbarian Jockey Plaza",
+        "telefono" : 2259999
+    },
+    
+    
     
     
     
@@ -102,7 +159,8 @@
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.115917,
         "longitude": -77.033159,
-        "nombreLocal": "MARKET J"
+        "nombreLocal": "MARKET J",
+        "telefono" : 2259999
     },
     {
         "codigo": 1234,
@@ -111,7 +169,8 @@
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.102426,
         "longitude": -77.025721,
-        "nombreLocal": "MARKET K"
+        "nombreLocal": "MARKET K",
+        "telefono" : 2259999
     },
     {
         "codigo": 1234,
@@ -120,7 +179,8 @@
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.1123311,
         "longitude": -77.036596,
-        "nombreLocal": "MARKET L"
+        "nombreLocal": "MARKET L",
+        "telefono" : 2259999
     },
     
     {
@@ -130,7 +190,8 @@
         "image_url": "https://images.punkapi.com/v2/keg.png",
         "latitude": -12.118991,
         "longitude": -77.031824,
-        "nombreLocal": "MARKET LL"
+        "nombreLocal": "MARKET LL",
+        "telefono" : 2259999
     }
     
 ]

@@ -41,7 +41,26 @@ extension DireccionesViewController: UITableViewDataSource, UITableViewDelegate 
       
         celda?.direccionLocalLabel?.text = local.direccion //
         celda?.nameLocalLabel?.text = local.nombreLocal
+        celda?.telefonoLocalLabel.text = String(local.telefono)
         celda?.codigo?.text = String(local.codigo)
+        
+//
+        if let url = URL(string: local.image_url) {
+                    let task = URLSession.shared.dataTask(with: url) { data, response, error in guard let data = data, error == nil else { return }
+                        
+                        DispatchQueue.main.async { /// execute on main threadself.imageView.image = UIImage(data: da
+                            celda?.localImageView?.image = UIImage(data: data)
+                        }
+                    }
+                    
+                    task.resume()
+                }
+                
+                celda?.localImageView?.image = UIImage()
+        
+        
+        
+//
         return celda!
     
     }

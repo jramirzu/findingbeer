@@ -15,5 +15,5 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLocalLabel: UILabel!
     @IBOutlet weak var direccionLocalLabel: UILabel!
     @IBOutlet weak var codigo: UILabel!
-    
+    @IBOutlet weak var telefonoLocalLabel: UILabel!
 }
