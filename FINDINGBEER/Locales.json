@@ -7,7 +7,8 @@
         "latitude": -12.068073732139771,
         "longitude": -77.00916066063975,
         "nombreLocal": "DISTRIBUIDORA TRES MARIAS",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     {
         "codigo": 123,
@@ -17,7 +18,8 @@
         "latitude": -12.116274538512293,
         "longitude": -77.03713326762973,
         "nombreLocal": "EL POZITO",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     {
         "codigo": 123,
@@ -27,7 +29,8 @@
         "latitude": -12.104396,
         "longitude": -77.029331,
         "nombreLocal": "FRANJA MARKET",
-        "telefono" : 2259999
+        "telefono" : 932742140,
+        "horario" : " L-D"
     },
     {
         "codigo": 123,
@@ -37,7 +40,8 @@
         "latitude": -12.121248133403604,
         "longitude": -77.02699994463858,
         "nombreLocal": "Tambo+ La Paz",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     {
@@ -48,7 +52,8 @@
         "latitude": -12.021554533772164,
         "longitude": -76.98668370221975,
         "nombreLocal": "MAKRO",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     {
@@ -59,7 +64,8 @@
         "latitude":  -12.090722370902512,
         "longitude": -77.03437246903512,
         "nombreLocal": "Distribuidora Nuevo Mundo",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
         
     },
     
@@ -71,7 +77,8 @@
         "latitude":   -12.104693280573565,
         "longitude": -77.03946938436683,
         "nombreLocal": "EL POZITO",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
 
@@ -84,7 +91,8 @@
         "latitude": -12.102996705541619,
         "longitude": -77.03694679256516,
         "nombreLocal": "ALMENDARIZ",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     
@@ -96,7 +104,8 @@
         "latitude": -12.124856241625428, 
         "longitude":  -77.03195278458634,
         "nombreLocal": "BODEGA ANDY",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     {
@@ -107,7 +116,8 @@
         "latitude": -12.121708244206978,
         "longitude":  -77.03230356214966,
         "nombreLocal": "Barbarian Berlin",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     {
@@ -118,7 +128,8 @@
         "latitude": -12.119924019934613,
         "longitude":  -77.02856941695553,
         "nombreLocal": "Barbarian Miraflores",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     
@@ -130,7 +141,8 @@
         "latitude": -12.150787711984725,
         "longitude":  -77.02214642330497,
         "nombreLocal": "Barbarian Barranco",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     {
@@ -141,7 +153,8 @@
         "latitude": -12.150787711984725,
         "longitude":  -77.02214642330497,
         "nombreLocal": "Barbarian Jockey Plaza",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     
@@ -160,7 +173,8 @@
         "latitude": -12.115917,
         "longitude": -77.033159,
         "nombreLocal": "MARKET J",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     {
         "codigo": 1234,
@@ -170,7 +184,8 @@
         "latitude": -12.102426,
         "longitude": -77.025721,
         "nombreLocal": "MARKET K",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     {
         "codigo": 1234,
@@ -180,7 +195,8 @@
         "latitude": -12.1123311,
         "longitude": -77.036596,
         "nombreLocal": "MARKET L",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     },
     
     {
@@ -191,7 +207,8 @@
         "latitude": -12.118991,
         "longitude": -77.031824,
         "nombreLocal": "MARKET LL",
-        "telefono" : 2259999
+        "telefono" : 2259999,
+        "horario" : " L-D"
     }
     
 ]

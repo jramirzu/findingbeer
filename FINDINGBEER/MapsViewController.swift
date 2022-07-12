@@ -9,37 +9,39 @@ import UIKit
 import GoogleMaps
 
 class MapsViewController: UIViewController {
-    var cerveza: Local?
+    var local: Local?
     
     @IBOutlet weak var mapas: GMSMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
     }
-        override func viewDidAppear(_ animated: Bool) {
-            guard let cerveza = cerveza else {
+    @IBAction func atras(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    override func viewDidAppear(_ animated: Bool) {
+            guard let local = local else {
                 return
             }
 
-        map(cerveza: cerveza)
-            createMarkers(latitude: cerveza.latitude, longitude: cerveza.longitude)
+        map(local: local)
+            createMarkers(latitude: local.latitude, longitude: local.longitude)
         // Do any additional setup after loading the view.
         
-       
     }
     
 }
 
 extension MapsViewController : GMSMapViewDelegate {
-    func map(cerveza: Local) {
+    func map(local: Local) {
         
         
-        let camera = GMSCameraPosition.camera(withLatitude: cerveza.latitude,  longitude: cerveza.longitude, zoom: 18)
+        let camera = GMSCameraPosition.camera(withLatitude: local.latitude,  longitude: local.longitude, zoom: 18)
         
         //update camera
         
         mapas.camera = camera
+
         
         do {
             
@@ -80,10 +82,8 @@ extension MapsViewController : GMSMapViewDelegate {
             
             marker.position = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
             
-        
-           // marker.userData = cerveza (Aqui se envía cualquier tipo de archivo
             
-            marker.title = "testTitulo"
+            marker.title = "T"
             
             marker.snippet = "testDecription"
             

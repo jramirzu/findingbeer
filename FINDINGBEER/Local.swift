@@ -16,5 +16,7 @@ struct Local: Codable {
     let longitude: Double
     let nombreLocal : String
     let telefono : Int
+    let horario : String 
+//    let score : Float
 }
     

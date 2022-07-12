@@ -9,8 +9,9 @@ import UIKit
 
 class DireccionesViewController: UIViewController  {
     
-
     @IBOutlet weak var direccionesTableView: UITableView!
+    
+
     
     
     var locales: [Local] = [] // ok
@@ -43,6 +44,7 @@ extension DireccionesViewController: UITableViewDataSource, UITableViewDelegate 
         celda?.nameLocalLabel?.text = local.nombreLocal
         celda?.telefonoLocalLabel.text = String(local.telefono)
         celda?.codigo?.text = String(local.codigo)
+        celda?.horarioLocalLabel.text = local.horario
         
 //
         if let url = URL(string: local.image_url) {
@@ -81,7 +83,7 @@ extension DireccionesViewController: UITableViewDataSource, UITableViewDelegate 
             as?MapsViewController  else{
                 return
             }
-        main.cerveza = locales[indexPath.row]
+        main.local = locales[indexPath.row]
 //
 //                if let sheet = bottomSheet.sheetPresentationController {
 //
