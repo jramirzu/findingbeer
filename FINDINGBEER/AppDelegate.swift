@@ -10,11 +10,15 @@ import GoogleMaps
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
+// AppDelegate: Representa el ciclo de la aplicación
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         GMSServices.provideAPIKey("AIzaSyC_XbePzwHu1M2q-dbUH8xON2AfGn9mAFI")
         // Override point for customization after application launch.
+        
+        //Este método didFinishLaunchingWithOptions se llama
+        //Asumiendo que en nuestro dispositivo no existe ninguna instancia previa de nuestra aplicación y cuando queremos abrir esta aplicación, este método se llama la primera vez.
+        
         return true
     }
 

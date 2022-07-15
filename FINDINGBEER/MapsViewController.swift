@@ -12,12 +12,19 @@ class MapsViewController: UIViewController {
     var local: Local?
     
     @IBOutlet weak var mapas: GMSMapView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
     }
+    
+
+    
     @IBAction func atras(_ sender: Any) {
         self.dismiss(animated: true)
+        
     }
     override func viewDidAppear(_ animated: Bool) {
             guard let local = local else {
@@ -83,9 +90,9 @@ extension MapsViewController : GMSMapViewDelegate {
             marker.position = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
             
             
-            marker.title = "T"
+            marker.title = "Este es el local"
             
-            marker.snippet = "testDecription"
+            marker.snippet = ""
             
             marker.map = mapas
         
